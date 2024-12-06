@@ -1,5 +1,5 @@
 ## **Backend: ExpenseTrackerApi**
-
+![Hosting Backend API Azure](/HostingBackendAPI.png)
 ### **Description**
 
 ExpenseTrackerApi is a .NET Core backend API designed to manage expenses and budgets for a financial tracking application. The API interacts with Firestore to store and retrieve data, providing endpoints to manage expenses, set budgets, and monitor budget overruns.
