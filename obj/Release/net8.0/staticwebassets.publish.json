@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "a9nPRH5nvusHKMi2pg+c9vi36I55e0qulyTvYf6IBG8=",
+  "Source": "expenseTrackerApi",
+  "BasePath": "_content/expenseTrackerApi",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

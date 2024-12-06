@@ -1,26 +1,25 @@
 var builder = WebApplication.CreateBuilder(args);
 
-// Ajouter les services CORS
+// Ajouter CORS
 builder.Services.AddCors(options =>
 {
-    options.AddPolicy("AllowAngularApp", policy =>
+    options.AddPolicy("AllowSpecificOrigins", policy =>
     {
-        policy.WithOrigins("http://localhost:4200") // URL du frontend Angular
-              .AllowAnyHeader()
-              .AllowAnyMethod();
+        policy.WithOrigins("https://expense-tracker-3a15b.web.app")
+              .AllowAnyMethod()
+              .AllowAnyHeader();
     });
 });
 
-// Ajouter les services du contrôleur
+builder.Services.AddAuthorization(); 
+
 builder.Services.AddControllers();
 
 var app = builder.Build();
 
-// Activer CORS
-app.UseCors("AllowAngularApp");
+app.UseCors("AllowSpecificOrigins");
 
 app.UseHttpsRedirection();
-app.UseAuthorization();
+app.UseAuthorization(); 
 app.MapControllers();
-
 app.Run();

@@ -53,3 +53,4 @@
 /Users/khouda/expenseTrackerApi/bin/Debug/net8.0/System.Linq.Async.dll
 /Users/khouda/expenseTrackerApi/bin/Debug/net8.0/System.Management.dll
 /Users/khouda/expenseTrackerApi/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Management.dll
+/Users/khouda/expenseTrackerApi/obj/Debug/net8.0/expenseTrackerApi.sourcelink.json
